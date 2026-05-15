@@ -6,11 +6,11 @@
 
 > A curated directory of Mistral's connector and integration surfaces — **Le Chat Connectors** (consumer + Pro / Team / Enterprise), the **Mistral Agents API built-in tools**, and **native cloud deployment partnerships** — organized by category with descriptions and use cases.
 
-**Last updated:** May 10, 2026 · **Le Chat Connectors:** 25 · **Built-in Agent Tools:** 4 · **Deployment Platforms:** 7 · **Categories:** 10 · **Version:** 1.0.0
+**Last updated:** May 15, 2026 · **Le Chat Connectors:** 26 · **Built-in Agent Tools:** 4 · **Deployment Platforms:** 7 · **Categories:** 11 · **Version:** 1.0.1
 
 Mistral has three integration surfaces, each with a different shape. **Le Chat Connectors** are third-party services connectable inside [Le Chat](https://chat.mistral.ai) — split into *Regular Connectors* (real-time, no indexing, no admin setup; MCP-powered for partners, Mistral-built for Gmail/Calendar/Outlook) and *Knowledge Connectors* (admin-driven indexed connections to Google Drive, SharePoint; indexes stored in EU data centers). The **Mistral Agents API built-in tools** are first-party tools attachable to Agents via the API — web search, code interpreter, image generation, document library (RAG) — plus the Connectors API (Public Preview as of April 2026) which exposes Le Chat connectors and custom MCP servers via the Conversations API, Completions API, and Agent SDK. **Native cloud deployment partnerships** make Mistral models available on Azure AI Foundry, AWS Bedrock, GCP Vertex AI, Snowflake Cortex, IBM watsonx, and others — not user-facing connectors, but the foundation for enterprise deployment.
 
-Mistral's structural quirks worth knowing: Connectors are on the Free plan for all Le Chat users (announced Sept 2, 2025), while Knowledge Connectors are gated to Team / Enterprise. Mistral is an MCP **client, not a publisher** — there is no official `mistralai/*` MCP server. They invert Google's strategy of shipping their own MCP servers; instead they curate a partner directory and accept arbitrary remote MCPs. OAuth 2.1 with dynamic client registration is supported for custom MCP connectors — uncommon, ahead of most competitors. Connector tool data is not used for training — stated unconditionally across plans. Custom MCP connectors do not yet support dynamic tool discovery, MCP resources, or prompt templates.
+Mistral's structural quirks worth knowing: Connectors are on the Free plan for all Le Chat users (announced Sept 2, 2025), while Knowledge Connectors are gated to Team / Enterprise. Mistral is an MCP **client, not a publisher** — there is no official `mistralai/*` MCP server. They invert Google's strategy of shipping their own MCP servers; instead they curate a partner directory and accept arbitrary remote MCPs. OAuth 2.1 with dynamic client registration is supported for custom MCP connectors — uncommon, ahead of most competitors. Connector tool data is not used for training — stated unconditionally across plans. Custom MCP connectors do not yet support dynamic tool discovery, MCP resources, or prompt templates. **Work Mode** (April 29, 2026, Pro / Team / Enterprise) shifts connectors from single-call lookups to agentic multi-step workflows across connected tools with human-in-the-loop approval on sensitive operations.
 
 For more information, see the [Le Chat Connectors docs](https://docs.mistral.ai/le-chat/knowledge-integrations/connectors), the [Custom MCP Connectors guide](https://docs.mistral.ai/le-chat/knowledge-integrations/connectors/mcp-connectors), the [Agents API tools docs](https://docs.mistral.ai/agents/tools), the [Connectors in Studio launch post](https://mistral.ai/news/connectors), and the [Mistral partners page](https://mistral.ai/partners).
 
@@ -30,6 +30,7 @@ For more information, see the [Le Chat Connectors docs](https://docs.mistral.ai/
 - [Data and Databases](#data-and-databases)
 - [Commerce and Payments](#commerce-and-payments)
 - [Marketing and Automation](#marketing-and-automation)
+- [CMS and Web Publishing](#cms-and-web-publishing)
 - [Mistral Agents API](#mistral-agents-api)
 - [Built-in Agent Tools](#built-in-agent-tools)
 - [Cloud Deployment](#cloud-deployment)
@@ -84,6 +85,10 @@ Connectable services inside Le Chat. Mistral splits these into *Regular* (real-t
 
 - 🤝 📡 [Brevo](https://www.brevo.com) - Email marketing and CRM platform. *Use case: Campaign queries, contact-list management, transactional email setup.*
 - 🤝 📡 [Zapier](https://zapier.com) - Workflow automation across 6,000+ apps. *Use case: Triggering and orchestrating cross-app workflows from a chat thread.*
+
+## CMS and Web Publishing
+
+- 🤝 📡 [WebsitePublisher.ai](https://www.websitepublisher.ai) - Build and publish full websites through conversation; 44+ MCP tools spanning pages, assets, dynamic entities, forms, and one-step publish to live URLs. OAuth 2.1 + dynamic client registration. *Use case: Building marketing sites, prototyping landing pages, managing CMS content, and publishing to production without leaving Le Chat. Joined the directory May 5, 2026.*
 
 ## Mistral Agents API
 

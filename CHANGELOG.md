@@ -12,6 +12,19 @@ All notable changes to this list will be documented in this file. Format follows
 
 ---
 
+## [1.0.1] — 2026-05-15
+
+### Added
+- **CMS and Web Publishing** — new category (11th overall).
+- **WebsitePublisher.ai** under the new category — directory connector announced [May 5, 2026](https://dev.to/megberts/were-now-in-mistrals-connector-directory-heres-what-that-means-for-ai-powered-web-publishing-206). 44+ MCP tools spanning pages, assets, dynamic entities, forms, and publish-to-live-URL workflows. OAuth 2.1 + DCR.
+- About-section bullet for **Le Chat Work Mode** (Apr 29, 2026) — agentic multi-step workflow execution across connected tools with human-in-the-loop approval, Pro / Team / Enterprise. Shifts connectors from single-call lookups to persistent task sessions.
+
+### Changed
+- Header date → May 15, 2026.
+- Le Chat Connectors count: 25 → 26. Categories: 10 → 11.
+
+---
+
 ## [1.0.0] — 2026-05-10
 
 ### Added
@@ -33,5 +46,6 @@ All notable changes to this list will be documented in this file. Format follows
 - EU data residency is explicitly claimed for Knowledge Connectors (Drive, SharePoint) — flagged with 🇪🇺.
 - Sept 2025 launch flagged Databricks and Snowflake as "coming soon" — listed here with ⏳ pending GA confirmation.
 
-[Unreleased]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/rdmgator12/awesome-mistral-connectors/releases/tag/v1.0.0
