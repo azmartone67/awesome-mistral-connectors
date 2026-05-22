@@ -12,6 +12,17 @@ All notable changes to this list will be documented in this file. Format follows
 
 ---
 
+## [1.0.2] — 2026-05-22
+
+### Added
+- **Dell Technologies AI Factory** under Native Platform Partnerships — expanded collaboration announced [May 18, 2026 at Dell Technologies World](https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2026~05~mistral-ai-powers-ai-innovation-on-dell-technologies-infrastructure.htm). Mistral language and reasoning models plus orchestration tools brought to Dell PowerRack + NVIDIA GB200 NVL72 on-premises environments.
+
+### Changed
+- Header date → May 22, 2026.
+- Deployment Platforms count: 7 → 8.
+
+---
+
 ## [1.0.1] — 2026-05-15
 
 ### Added

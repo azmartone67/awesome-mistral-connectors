@@ -6,7 +6,7 @@
 
 > A curated directory of Mistral's connector and integration surfaces — **Le Chat Connectors** (consumer + Pro / Team / Enterprise), the **Mistral Agents API built-in tools**, and **native cloud deployment partnerships** — organized by category with descriptions and use cases.
 
-**Last updated:** May 15, 2026 · **Le Chat Connectors:** 26 · **Built-in Agent Tools:** 4 · **Deployment Platforms:** 7 · **Categories:** 11 · **Version:** 1.0.1
+**Last updated:** May 22, 2026 · **Le Chat Connectors:** 26 · **Built-in Agent Tools:** 4 · **Deployment Platforms:** 8 · **Categories:** 11 · **Version:** 1.0.2
 
 Mistral has three integration surfaces, each with a different shape. **Le Chat Connectors** are third-party services connectable inside [Le Chat](https://chat.mistral.ai) — split into *Regular Connectors* (real-time, no indexing, no admin setup; MCP-powered for partners, Mistral-built for Gmail/Calendar/Outlook) and *Knowledge Connectors* (admin-driven indexed connections to Google Drive, SharePoint; indexes stored in EU data centers). The **Mistral Agents API built-in tools** are first-party tools attachable to Agents via the API — web search, code interpreter, image generation, document library (RAG) — plus the Connectors API (Public Preview as of April 2026) which exposes Le Chat connectors and custom MCP servers via the Conversations API, Completions API, and Agent SDK. **Native cloud deployment partnerships** make Mistral models available on Azure AI Foundry, AWS Bedrock, GCP Vertex AI, Snowflake Cortex, IBM watsonx, and others — not user-facing connectors, but the foundation for enterprise deployment.
 
@@ -116,6 +116,7 @@ Not user-facing connectors — the cloud platforms where Mistral's models are de
 - 🤝 [IBM watsonx](https://www.ibm.com/products/watsonx-ai) - On-prem and watsonx.ai catalog deployment.
 - 🤝 [NVIDIA](https://www.nvidia.com/en-us/ai/) - Inference partnership across NVIDIA platforms.
 - 🤝 [Outscale](https://www.outscale.com) - French-sovereign cloud (Mistral's hometown / EU residency story).
+- 🤝 [Dell Technologies AI Factory](https://www.dell.com/en-us/dt/ai-solutions/ai-factory.htm) - On-premises and enterprise-infrastructure deployment via Dell AI Factory with NVIDIA. Expanded collaboration announced May 18, 2026 at Dell Technologies World — Mistral's language and reasoning models plus orchestration tools brought to Dell PowerRack + NVIDIA GB200 NVL72 environments.
 
 ## Contributing
 
