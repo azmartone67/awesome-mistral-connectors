@@ -6,7 +6,7 @@
 
 > A curated directory of Mistral's connector and integration surfaces — **Le Chat Connectors** (consumer + Pro / Team / Enterprise), the **Mistral Agents API built-in tools**, and **native cloud deployment partnerships** — organized by category with descriptions and use cases.
 
-**Last updated:** May 22, 2026 · **Le Chat Connectors:** 26 · **Built-in Agent Tools:** 4 · **Deployment Platforms:** 8 · **Categories:** 11 · **Version:** 1.0.2
+**Last updated:** June 5, 2026 · **Le Chat Connectors:** 28 · **Built-in Agent Tools:** 4 · **Deployment Platforms:** 8 · **Categories:** 11 · **Version:** 1.1.0
 
 Mistral has three integration surfaces, each with a different shape. **Le Chat Connectors** are third-party services connectable inside [Le Chat](https://chat.mistral.ai) — split into *Regular Connectors* (real-time, no indexing, no admin setup; MCP-powered for partners, Mistral-built for Gmail/Calendar/Outlook) and *Knowledge Connectors* (admin-driven indexed connections to Google Drive, SharePoint; indexes stored in EU data centers). The **Mistral Agents API built-in tools** are first-party tools attachable to Agents via the API — web search, code interpreter, image generation, document library (RAG) — plus the Connectors API (Public Preview as of April 2026) which exposes Le Chat connectors and custom MCP servers via the Conversations API, Completions API, and Agent SDK. **Native cloud deployment partnerships** make Mistral models available on Azure AI Foundry, AWS Bedrock, GCP Vertex AI, Snowflake Cortex, IBM watsonx, and others — not user-facing connectors, but the foundation for enterprise deployment.
 
@@ -51,6 +51,7 @@ Connectable services inside Le Chat. Mistral splits these into *Regular* (real-t
 - 🅜 🇪🇺 💎 [Google Drive](https://drive.google.com) - Knowledge Connector — indexes the team's content; index stored in EU data centers. *Use case: Org-wide search across Docs / Sheets / Slides, summarizing folders, citing artifacts in research output.*
 - 🅜 🇪🇺 💎 [Microsoft SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration) - Knowledge Connector — indexes the team's sites; index stored in EU data centers. *Use case: Enterprise document search, retrieving policy and procedure docs, summarizing site content.*
 - 🤝 📡 [Box](https://www.box.com) - Search, analyze, and get insights from stored files. *Use case: Cross-document search, summarizing folders, pulling artifacts into a research thread.*
+- 🅜 [SharePoint Search API](https://learn.microsoft.com/en-us/graph/search-concept-overview) - Search and open SharePoint content in real time via the Microsoft Graph API (no indexing). *Use case: On-demand SharePoint lookups, retrieving site files inline, citing documents in a chat thread without an admin-managed index.*
 
 ## Productivity
 
@@ -58,6 +59,7 @@ Connectable services inside Le Chat. Mistral splits these into *Regular* (real-t
 - 🤝 📡 [Asana](https://asana.com) - Plan and track projects, tasks, and team workflows. *Use case: Creating tasks from meeting notes, querying project status, surfacing blockers across teams.*
 - 🤝 📡 [Monday.com](https://monday.com) - Manage boards, items, and groups; automate project workflows. *Use case: Cross-board project queries, updating item status from research output, automating routine task creation.*
 - 🤝 📡 [Atlassian (Jira + Confluence)](https://www.atlassian.com) - Search, summarize, and act on Jira issues and Confluence pages. *Use case: Issue triage, sprint planning, drafting Confluence pages, querying status across projects.*
+- 🤝 📡 [Slack](https://slack.com) - Search messages, read channels, send messages, and manage canvases. *Use case: Surfacing decisions buried in channel history, posting status updates from research output, drafting canvases for the team.*
 
 ## Development Tools
 

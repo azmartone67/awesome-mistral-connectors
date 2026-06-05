@@ -4,11 +4,24 @@ All notable changes to this list will be documented in this file. Format follows
 
 ## [Unreleased]
 
-### Planned for v1.1.0
+### Planned
 - Audit the Le Chat **Connectors → Add** UI for any partner connectors not yet announced publicly (surface drift between mistral.ai/news posts and the live directory).
 - Track the Sept 2025 "coming soon" entries (Databricks, Snowflake) to confirm general availability and remove the ⏳ flag.
 - Add a "Custom MCP examples" appendix linking to high-signal community MCP servers known to work with Le Chat (without polluting the curated partner list).
 - Add `awesome-lint` to CI once the repo is ≥30 days old (lint blocks submissions on `git-repo-age` until 2026-06-09).
+
+---
+
+## [1.1.0] - 2026-06-05
+
+### Added
+- **Slack** under Productivity - Le Chat Regular Connector (🤝 📡 official MCP partner). Search messages, read channels, send messages, and manage canvases.
+- **SharePoint Search API** under File Storage and Documents - Mistral-built (🅜) real-time surface over the Microsoft Graph Search API (no indexing). Distinct from the existing admin-indexed, EU-resident **Microsoft SharePoint** Knowledge Connector.
+
+### Changed
+- Full reconcile against the official Le Chat connector directory diff (Jun 5, 2026).
+- Header date → June 5, 2026.
+- Le Chat Connectors count: 26 → 28.
 
 ---
 
@@ -57,6 +70,8 @@ All notable changes to this list will be documented in this file. Format follows
 - EU data residency is explicitly claimed for Knowledge Connectors (Drive, SharePoint) — flagged with 🇪🇺.
 - Sept 2025 launch flagged Databricks and Snowflake as "coming soon" — listed here with ⏳ pending GA confirmation.
 
-[Unreleased]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v1.0.2...v1.1.0
+[1.0.2]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/rdmgator12/awesome-mistral-connectors/releases/tag/v1.0.0
