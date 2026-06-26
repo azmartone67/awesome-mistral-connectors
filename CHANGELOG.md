@@ -5,10 +5,28 @@ All notable changes to this list will be documented in this file. Format follows
 ## [Unreleased]
 
 ### Planned
-- Audit the Le Chat **Connectors → Add** UI for any partner connectors not yet announced publicly (surface drift between mistral.ai/news posts and the live directory).
-- Track the Sept 2025 "coming soon" entries (Databricks, Snowflake) to confirm general availability and remove the ⏳ flag.
+- Confirm the **Synapse** directory card's canonical vendor in-product — best evidence points to [Sage Bionetworks' Synapse](https://github.com/Sage-Bionetworks/synapse-mcp) research-data platform (official hosted OAuth2 MCP server), not Azure Synapse Analytics — and remove the ⚠️ flag once verified.
+- Audit the Le Chat **Connectors → + Add Connector** UI for any partner connectors not yet announced publicly (surface drift between mistral.ai/news posts and the live directory).
 - Add a "Custom MCP examples" appendix linking to high-signal community MCP servers known to work with Le Chat (without polluting the curated partner list).
-- Add `awesome-lint` to CI once the repo is ≥30 days old (lint blocks submissions on `git-repo-age` until 2026-06-09).
+
+---
+
+## [2.0.0] - 2026-06-26
+
+Major reconcile against the [June 24, 2026 "Bringing more control over your connectors"](https://mistral.ai/news/more-control-over-connectors/) post, which published the full directory (60+ integrations, 64 enumerated) and a 10-category taxonomy. Structural restructure → MAJOR bump.
+
+### Added
+- **37 new connectors** from the official directory: BigQuery, MDN, Microsoft Learn, Needle, Supabase, Synapse (⚠️ vendor unconfirmed) under Knowledge, Data and AI; Hugging Face, Jina, Tavily under Machine Learning; Outlook Calendar, Clockwise, Fireflies under Communication and Scheduling; Close, HubSpot, Intercom, Salesforce, ServiceNow under Work and Customer Operations; Morningstar, Kensho, Pigment under Payments and Financial Data; Amplitude, Hex, Vantage under Analytics and Business Intelligence; Netlify, Stytch under Developer Platforms and Infrastructure; Apify, n8n, Workato under Automation and Integration; BioRender, Data.gouv, PubMed, Scholar Gateway (Wiley) under Research, Scientific and Public Data; Bria, Bright (Bright Data), Cloudinary, Mermaid, Trivago under Content and Media Management.
+- **⭐ Featured connector** legend marker (direct OAuth, click-to-connect) and **⚠️ unconfirmed-vendor** marker. Featured set tagged: Atlassian, Box, GitHub, Gmail, Google Calendar, Linear, Notion, Outlook, Outlook Calendar, SharePoint Search API, Slack, Stripe.
+- About-section coverage of the **Vibe / Work / Chat / Code** mode split (connectors now live under Work), and the June 24 governance shipment: enriched admin controls (GA), API keys with connector scopes (GA), multi-account connectors (GA), Connectors Debugger (Public Preview), Connectors in Vibe Code (GA), Connectors in Workflows (Public Preview).
+
+### Changed
+- **Category restructure:** README sections realigned to Mistral's official 10-category directory taxonomy (Knowledge, Data and AI; Machine Learning; Communication and Scheduling; Work and Customer Operations; Payments and Financial Data; Analytics and Business Intelligence; Developer Platforms and Infrastructure; Automation and Integration; Research, Scientific and Public Data; Content and Media Management). Retires the prior surface-grouped categories.
+- **Outlook** split into **Outlook** (email) and **Outlook Calendar** (calendar) to match Mistral's directory.
+- Header date → June 26, 2026. Le Chat Connectors count: 28 → 65 (64 directory + SharePoint Search API real-time variant). Connector categories: 11 → 10.
+
+### Removed
+- **⏳ "coming soon" flags** on Databricks and Snowflake — both are listed plainly in the June 24 GA directory.
 
 ---
 
@@ -70,7 +88,8 @@ All notable changes to this list will be documented in this file. Format follows
 - EU data residency is explicitly claimed for Knowledge Connectors (Drive, SharePoint) — flagged with 🇪🇺.
 - Sept 2025 launch flagged Databricks and Snowflake as "coming soon" — listed here with ⏳ pending GA confirmation.
 
-[Unreleased]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v1.1.0...v2.0.0
 [1.1.0]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v1.0.2...v1.1.0
 [1.0.2]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/rdmgator12/awesome-mistral-connectors/compare/v1.0.0...v1.0.1
