@@ -16,7 +16,7 @@ Mistral's structural quirks worth knowing: Connectors are on the Free plan for a
 
 For more information, see the [Le Chat Connectors docs](https://docs.mistral.ai/le-chat/knowledge-integrations/connectors), the [Custom MCP Connectors guide](https://docs.mistral.ai/le-chat/knowledge-integrations/connectors/mcp-connectors), the [Agents API tools docs](https://docs.mistral.ai/agents/tools), the [Connectors in Studio launch post](https://mistral.ai/news/connectors), and the [Mistral partners page](https://mistral.ai/partners).
 
-**Legend:** 🅜 Built or maintained by Mistral · 🤝 Official MCP partner connector · 🛠️ Community / third-party · 📡 MCP-powered · 🇪🇺 EU data residency stated · ⭐ Featured connector (direct OAuth, click-to-connect) · 💎 Team / Enterprise tier required · ⚠️ Vendor identity unconfirmed — verify in-directory.
+**Legend:** 🅜 Built or maintained by Mistral · 🤝 Official MCP partner connector · 🛠️ Community / third-party · 📡 MCP-powered · 🇪🇺 EU data residency stated · ⭐ Featured connector (direct OAuth, click-to-connect) · 💎 Team / Enterprise tier required.
 
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Mistral AI. "Mistral," "Le Chat," and related marks are the property of Mistral AI. Each connector is the property of its respective owner.
 
@@ -60,7 +60,7 @@ Connectable services inside Le Chat / Work. **Featured Connectors** (⭐) use a 
 - 🤝 📡 [Prisma Postgres](https://www.prisma.io/postgres) - Managed PostgreSQL with the Prisma stack. *Use case: Schema introspection and queries against Prisma-managed databases without leaving the assistant.*
 - 🤝 📡 [Snowflake](https://www.snowflake.com) - Cloud data warehouse. *Use case: Cross-warehouse SQL via natural language, schema introspection, ad-hoc analytics.*
 - 🤝 📡 [Supabase](https://supabase.com) - PostgreSQL app backend (database, auth, storage). *Use case: Schema introspection and queries against the Supabase database, inspecting auth and storage from chat.*
-- 🤝 📡 ⚠️ [Synapse](https://www.synapse.org) - Vendor unconfirmed against the live card. Best evidence points to [Sage Bionetworks' Synapse](https://github.com/Sage-Bionetworks/synapse-mcp) — a collaborative research-data platform with an official hosted OAuth2 MCP server (datasets, entity metadata, project hierarchies, provenance), which fits a curated partner directory better than the community-only Azure Synapse Analytics alternative. *Verify the publisher in the Le Chat directory before relying on it.*
+- 🤝 📡 [Synapse](https://www.synapse.org) - [Sage Bionetworks'](https://github.com/Sage-Bionetworks/synapse-mcp) collaborative research-data platform — search datasets, inspect entity metadata, explore project hierarchies, and trace provenance through its hosted OAuth2 MCP server. *Use case: Grounding biomedical research in shared Synapse datasets, citing entity metadata and provenance inline.*
 
 ### Machine Learning
 

@@ -5,7 +5,6 @@ All notable changes to this list will be documented in this file. Format follows
 ## [Unreleased]
 
 ### Planned
-- Confirm the **Synapse** directory card's canonical vendor in-product — best evidence points to [Sage Bionetworks' Synapse](https://github.com/Sage-Bionetworks/synapse-mcp) research-data platform (official hosted OAuth2 MCP server), not Azure Synapse Analytics — and remove the ⚠️ flag once verified.
 - Audit the Le Chat **Connectors → + Add Connector** UI for any partner connectors not yet announced publicly (surface drift between mistral.ai/news posts and the live directory).
 - Add a "Custom MCP examples" appendix linking to high-signal community MCP servers known to work with Le Chat (without polluting the curated partner list).
 
@@ -16,8 +15,8 @@ All notable changes to this list will be documented in this file. Format follows
 Major reconcile against the [June 24, 2026 "Bringing more control over your connectors"](https://mistral.ai/news/more-control-over-connectors/) post, which published the full directory (60+ integrations, 64 enumerated) and a 10-category taxonomy. Structural restructure → MAJOR bump.
 
 ### Added
-- **37 new connectors** from the official directory: BigQuery, MDN, Microsoft Learn, Needle, Supabase, Synapse (⚠️ vendor unconfirmed) under Knowledge, Data and AI; Hugging Face, Jina, Tavily under Machine Learning; Outlook Calendar, Clockwise, Fireflies under Communication and Scheduling; Close, HubSpot, Intercom, Salesforce, ServiceNow under Work and Customer Operations; Morningstar, Kensho, Pigment under Payments and Financial Data; Amplitude, Hex, Vantage under Analytics and Business Intelligence; Netlify, Stytch under Developer Platforms and Infrastructure; Apify, n8n, Workato under Automation and Integration; BioRender, Data.gouv, PubMed, Scholar Gateway (Wiley) under Research, Scientific and Public Data; Bria, Bright (Bright Data), Cloudinary, Mermaid, Trivago under Content and Media Management.
-- **⭐ Featured connector** legend marker (direct OAuth, click-to-connect) and **⚠️ unconfirmed-vendor** marker. Featured set tagged: Atlassian, Box, GitHub, Gmail, Google Calendar, Linear, Notion, Outlook, Outlook Calendar, SharePoint Search API, Slack, Stripe.
+- **37 new connectors** from the official directory: BigQuery, MDN, Microsoft Learn, Needle, Supabase, Synapse (Sage Bionetworks) under Knowledge, Data and AI; Hugging Face, Jina, Tavily under Machine Learning; Outlook Calendar, Clockwise, Fireflies under Communication and Scheduling; Close, HubSpot, Intercom, Salesforce, ServiceNow under Work and Customer Operations; Morningstar, Kensho, Pigment under Payments and Financial Data; Amplitude, Hex, Vantage under Analytics and Business Intelligence; Netlify, Stytch under Developer Platforms and Infrastructure; Apify, n8n, Workato under Automation and Integration; BioRender, Data.gouv, PubMed, Scholar Gateway (Wiley) under Research, Scientific and Public Data; Bria, Bright (Bright Data), Cloudinary, Mermaid, Trivago under Content and Media Management.
+- **⭐ Featured connector** legend marker (direct OAuth, click-to-connect). Featured set tagged: Atlassian, Box, GitHub, Gmail, Google Calendar, Linear, Notion, Outlook, Outlook Calendar, SharePoint Search API, Slack, Stripe.
 - About-section coverage of the **Vibe / Work / Chat / Code** mode split (connectors now live under Work), and the June 24 governance shipment: enriched admin controls (GA), API keys with connector scopes (GA), multi-account connectors (GA), Connectors Debugger (Public Preview), Connectors in Vibe Code (GA), Connectors in Workflows (Public Preview).
 
 ### Changed
