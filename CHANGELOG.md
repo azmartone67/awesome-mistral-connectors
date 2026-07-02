@@ -10,6 +10,20 @@ All notable changes to this list will be documented in this file. Format follows
 
 ---
 
+## [2.0.1] - 2026-07-02
+
+### Fixed
+- Corrected the Connectors-in-Studio launch date in the README's Connectors API callout: the cited post ([mistral.ai/news/connectors](https://mistral.ai/news/connectors), "Connect the dots: Build with built-in and custom MCPs in Studio") is dated **May 22, 2026**, not April 15, 2026. Earlier CHANGELOG entries retain the original wording as historical record.
+
+### Changed
+- Header bumped: version 2.0.1, `Last updated` July 2, 2026.
+
+### Notes
+- June 26 – July 2 sweep: **no connector additions or removals.** Re-diffed the June 24 post's full enumeration against the README — 64/64 exact match across all 10 categories; docs Featured tab unchanged (same 12); no Mistral news posts after June 24. Directory stays at 65 (64 enumerated + SharePoint Search API featured variant).
+- Watch items: Le Chat → Vibe brand consolidation accelerating in third-party framing (Android app now "Vibe by Mistral (ex-Le Chat)") — a completed rename would force a MAJOR-level retitle. Per-function connector permission toggles are now documented in the MCP Connectors docs (undated; candidate for next content update). Mistral's own naming wobbles between Connectors "Debugger" (post body) and "Playground" (post closing) — README follows the body.
+
+---
+
 ## [2.0.0] - 2026-06-26
 
 Major reconcile against the [June 24, 2026 "Bringing more control over your connectors"](https://mistral.ai/news/more-control-over-connectors/) post, which published the full directory (60+ integrations, 64 enumerated) and a 10-category taxonomy. Structural restructure → MAJOR bump.
