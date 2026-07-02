@@ -20,6 +20,13 @@ For more information, see the [Le Chat Connectors docs](https://docs.mistral.ai/
 
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Mistral AI. "Mistral," "Le Chat," and related marks are the property of Mistral AI. Each connector is the property of its respective owner.
 
+> [!TIP]
+> ### Connector of the Week — July 2, 2026
+>
+> **Hugging Face** · *Machine Learning*
+>
+> Inaugural pick in a zero-churn week (the directory is unchanged since the June 24 update), so it goes to the connector that best fits the house: Hugging Face in Le Chat is the most on-brand integration in the directory — Europe's open-model champion wired to the world's open-model hub. Ask Work to find a model for a task, compare checkpoints, pull dataset metadata, or trace a model card's lineage without leaving the chat. For a company that publishes its own weights on the Hub, this connector is less a third-party integration than a homecoming. Listed under Machine Learning below.
+
 ---
 
 ## Contents

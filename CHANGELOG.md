@@ -17,6 +17,7 @@ All notable changes to this list will be documented in this file. Format follows
 
 ### Changed
 - Header bumped: version 2.0.1, `Last updated` July 2, 2026.
+- Added the inaugural **Connector of the Week** block (rotates weekly), matching the sibling-list convention. First pick: Hugging Face — an editorial choice in a zero-churn week.
 
 ### Notes
 - June 26 – July 2 sweep: **no connector additions or removals.** Re-diffed the June 24 post's full enumeration against the README — 64/64 exact match across all 10 categories; docs Featured tab unchanged (same 12); no Mistral news posts after June 24. Directory stays at 65 (64 enumerated + SharePoint Search API featured variant).
